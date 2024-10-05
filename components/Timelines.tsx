@@ -8,7 +8,7 @@ export function Timelines() {
       title: "Educational Opportunities",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xl font-normal mb-8">
+          <p className="text-neutral-200 text-xl font-normal mb-8">
           Attend workshops, lectures, and seminars by leading experts in astronomy, astrophysics, and space technology.
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -48,10 +48,10 @@ export function Timelines() {
       title: "Experience & Skill development",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xl font-normal mb-8">
+          <p className="text-neutral-200 text-xl font-normal mb-8">
           Participate in citizen science projects, such as stargazing events and data analysis from space missions.
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xl font-normal mb-8">
+          <p className="text-neutral-200 text-xl font-normal mb-8">
           Gain practical skills in areas like programming, astrophotography, and science communication, enhancing your resume or academic profile.
           </p>
       
@@ -92,10 +92,10 @@ export function Timelines() {
       title: "Networking & Community Engagement",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xl font-normal mb-4">
+          <p className="text-neutral-200 text-xl font-normal mb-4">
           Connect with like-minded individuals, professionals, and students in the space field, fostering collaborations and friendships.
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xl font-normal mb-4">
+          <p className="text-neutral-200 text-xl font-normal mb-4">
           Get involved in outreach programs that promote space science in schools and local communities.
           </p>
           
