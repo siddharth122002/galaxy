@@ -4,7 +4,7 @@ import { Vortex } from "../components/ui/vortex";
 
 export function Vor() {
     return (
-        <div className="w-full hidden md:block h-screen mx-auto rounded-md absolute overflow-hidden">
+        <div className="w-full block h-screen mx-auto rounded-md absolute overflow-hidden">
           <Vortex
             backgroundColor="transparent"
             rangeY={800}

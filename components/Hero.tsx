@@ -8,7 +8,7 @@ export function Hero() {
   return (
     <div className="md:h-screen h-[100vh] w-full bg-transparent flex flex-col items-center justify-center overflow-hidden ">
         {/* <Vor/> */}
-      <h1 className="text-4xl md:text-8xl font-bold text-center text-white relative z-20">
+      <h1 className="text-5xl md:text-8xl font-bold text-center text-white relative z-20">
         Galaxy club
       </h1>
       <div className="w-[40rem] h-40 relative">
