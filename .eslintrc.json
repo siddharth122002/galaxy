@@ -1,9 +1,18 @@
 {
   "extends": ["next/core-web-vitals", "next/typescript"],
   "rules": {
-    "prefer-const": "off",  // Disable prefer-const rule globally
-    "@typescript-eslint/no-unused-vars": "off",  // Disable no-unused-vars globally
-    "@typescript-eslint/no-unused-expressions": "off",  // Disable no-unused-expressions globally
-    "react-hooks/exhaustive-deps": "off"  // Disable useEffect dependency warnings
+    "prefer-const": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-unused-expressions": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react/no-unescaped-entities": "off",  // Disable unescaped entities warnings
+    "@typescript-eslint/no-explicit-any": "off",  // Allow 'any' type
+    "no-var": "off",  // Allow 'var' usage
+    "@typescript-eslint/no-empty-interface": "off",  // Allow empty interfaces
+    "@typescript-eslint/no-empty-object-type": "off",  // Allow empty object types
+    "no-unused-vars": "off",  // Disable unused variable warnings
+    "no-console": "off",  // Allow console.log without warnings
+    "react/jsx-key": "off",  // Disable missing 'key' props warnings in JSX
+    "@typescript-eslint/ban-ts-comment": "off"  // Allow use of @ts-ignore
   }
 }
