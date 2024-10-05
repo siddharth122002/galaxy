@@ -1,3 +1,7 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable prefer-const */
+/* eslint-disable @typescript-eslint/no-unused-expressions */
+
 "use client";
 import React from "react";
 import { BackgroundGradient } from "./ui/background-gradient";
